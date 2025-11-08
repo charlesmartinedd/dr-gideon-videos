@@ -155,7 +155,7 @@
 
     <div class="tabs">
         <button class="tab-button active" onclick="showVideo('acsa')">ACSA Video</button>
-        <button class="tab-button" onclick="showVideo('marketing')" id="marketingBtn" disabled>Marketing Video</button>
+        <button class="tab-button" onclick="showVideo('marketing')" id="marketingBtn">Marketing Video</button>
     </div>
 
     <div class="video-container">
@@ -167,12 +167,12 @@
             </video>
         </div>
 
-        <!-- Marketing Video (Placeholder) -->
+        <!-- Marketing Video -->
         <div id="marketing-video" class="video-content">
-            <div class="placeholder">
-                <h2>Marketing Video</h2>
-                <p>Coming Soon</p>
-            </div>
+            <video controls>
+                <source src="Marketing_Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 
